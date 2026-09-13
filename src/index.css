@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* this is the one shared gradient the whole site uses */
+/* brand name, hero heading highlight and the main buttons all use this same class */
+.brand-gradient {
+    background-image: linear-gradient(to right, #f97316, #ec4899, #8b5cf6);
+}
+
+.brand-gradient-text {
+    background-image: linear-gradient(to right, #f97316, #ec4899, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #ffff;
+    color: #f1f1f1;
+}
