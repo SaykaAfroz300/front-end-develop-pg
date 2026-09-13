@@ -5,8 +5,8 @@ function Footer() {
                 {/* brand block */}
                 <div>
                     <div className="flex items-center gap-2 mb-3">
-                        <span className="text-2xl">🧱</span>
-                        <span className="font-bold text-lg brand-gradient-text">Dev Stack</span>
+                        <img src="assets/logo-text.png" alt="Dev Stack logo" className="w-25 h-8" />
+                        <span className="font-bold text-lg brand-gradient-text"></span>
                     </div>
                     <p className="text-sm text-gray-400">
                         A simple place to explore modern web technologies and build the

@@ -7,7 +7,7 @@ function Navbar() {
     const navLinks = ["Home", "Technologies", "Projects", "About", "Contact"]
 
     return (
-        <header className="sticky top-0 z-50 bg-[#0f0f14]/90 backdrop-blur border-b border-white/10">
+        <header className="sticky top-0 z-50 bg-[#ffff]/90 backdrop-blur border-b border-white/10">
             <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
                 {/* left side - on mobile this is the hamburger, on desktop it is the logo */}
                 <div className="flex items-center gap-2">
@@ -17,15 +17,15 @@ function Navbar() {
                     >
                         ☰
                     </button>
-                    <span className="hidden md:inline-block text-2xl">🧱</span>
+                    <img src="assets/logo-text.png" alt="Dev Stack logo" className="hidden md:inline-block w-25 h-8" />
                     <span className="hidden md:inline-block font-bold text-xl brand-gradient-text">
-                        Dev Stack
+
                     </span>
                 </div>
 
                 {/* center - on mobile this becomes the logo, on desktop the nav links */}
                 <div className="md:hidden flex items-center gap-2">
-                    <span className="text-2xl">🧱</span>
+                    <img src="/logo.png" alt="Dev Stack logo" className="w-7 h-7" />
                     <span className="font-bold text-lg brand-gradient-text">Dev Stack</span>
                 </div>
 

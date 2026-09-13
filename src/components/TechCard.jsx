@@ -27,7 +27,7 @@ function TechCard({ tech, isAdded, onAdd }) {
                 className={
                     isAdded
                         ? "mt-2 bg-white/10 text-gray-400 py-2 rounded-full cursor-not-allowed"
-                        : "mt-2 brand-gradient text-white py-2 rounded-full font-semibold"
+                        : "mt-2 bg-black text-white py-2 rounded-full font-semibold"
                 }
             >
                 {isAdded ? "✓ Added to Stack" : "Add to Stack"}
