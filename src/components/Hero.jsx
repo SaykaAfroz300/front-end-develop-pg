@@ -3,8 +3,9 @@ function Hero() {
         <section className="max-w-7xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1 text-center md:text-left">
                 <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-                    Build Your Perfect{" "}
-                    <span className="brand-gradient-text">Dev Stack</span>
+                    Build Your Perfect
+                    <br />
+                    <span className="brand-gradient-text">Development Stack</span>
                 </h1>
                 <p className="mt-4 text-gray-400 max-w-lg mx-auto md:mx-0">
                     Browse popular technologies, compare them, and pick the ones that
@@ -22,7 +23,7 @@ function Hero() {
 
             <div className="flex-1">
                 <img
-                    src="https://icon.icepanel.io/Technology/svg/React.svg"
+                    src="assets/banner-stack.png"
                     alt="dev stack banner"
                     className="w-64 h-64 mx-auto opacity-90"
                 />
